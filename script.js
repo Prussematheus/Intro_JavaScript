@@ -15,9 +15,14 @@ const soma = n1 + n2;
 const subtracao = n1 - n2;
 const divisao = n2 !== 0 ? n1 / n2: 'NÃO EXISTE DIVISÃO POR ZERO SEU ACÉFALO';
 const multiplicacao = n1 * n2;
+
+console.log(soma)
+console.log(subtracao)
+console.log(divisao)
+console.log(multiplicacao)
 }
 
 let n1=parseFloat (prompt("Digite o primeiro número"));
 let n2=parseFloat (prompt("Digite o segundo número"));
 
-function calcular(n1,n2);
+calcular (n1,n2);
