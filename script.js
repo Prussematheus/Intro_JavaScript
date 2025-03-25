@@ -33,3 +33,9 @@ while (numero >=1){
     console.log(numero);
     numero--;
 }
+
+function inverterTexto(texto) {
+return texto.split(''), reverse(). join('')
+}
+
+console.log(inverterTexto("javaScripto"))
