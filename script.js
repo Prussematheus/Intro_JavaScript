@@ -75,3 +75,12 @@ let y=parseFloat (prompt("Digite o y"));
 let z=parseFloat (prompt("Digite o z"));
 let resultado =  media(x,y,z);
 console.log(resultado);
+
+for (let i = 1; i <= 20; i++) {
+    if (i % 3 === 0) {
+        console.log(i + ": Múltiplo de 3");
+    } else {
+        console.log(i + ": Não múltiplo de 3");
+    }
+}
+
