@@ -39,3 +39,9 @@ return texto.split('').reverse().join('');
 }
 
 console.log(inverterTexto("javaScripto"));
+
+function contaCaractere(str){
+    return str.length;
+}
+
+console.log(contaCaractere("Vasco é buxa"));
