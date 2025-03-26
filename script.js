@@ -45,3 +45,33 @@ function contaCaractere(str){
 }
 
 console.log(contaCaractere("Vasco é buxa"));
+
+class Carro {
+    constructor(marca, modelo, ano) {
+        this.marca = marca;
+        this.modelo = modelo;
+        this.ano = ano;
+    }
+
+    exibirInformacoes() {
+        console.log(`Carro: ${this.marca} ${this.modelo} ${this.ano}`);
+    }
+}
+
+const meuCarro = new Carro('Volkswagen', 'Beetle', '1963');
+meuCarro.exibirInformacoes();
+
+function mensagemPersonalizada(nome, mensagem = "Olá!"){
+    console.log(`${mensagem} ${nome}`);
+}
+mensagemPersonalizada('Gigi', 'me da')
+
+function media(x,y,z){
+  return (x+y+z) / 3;
+}
+
+let x=parseFloat (prompt("Digite o x"));
+let y=parseFloat (prompt("Digite o y"));
+let z=parseFloat (prompt("Digite o z"));
+let resultado =  media(x,y,z);
+console.log(resultado);
