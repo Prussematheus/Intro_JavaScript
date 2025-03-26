@@ -35,7 +35,7 @@ while (numero >=1){
 }
 
 function inverterTexto(texto) {
-return texto.split(''), reverse(). join('')
+return texto.split('').reverse().join('');
 }
 
-console.log(inverterTexto("javaScripto"))
+console.log(inverterTexto("javaScripto"));
